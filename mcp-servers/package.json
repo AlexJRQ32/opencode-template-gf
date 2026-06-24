@@ -1,0 +1,7 @@
+{
+  "name": "opencode-mcp-servers",
+  "private": true,
+  "dependencies": {
+    "@bitbonsai/mcpvault": "latest"
+  }
+}
