@@ -1,115 +1,70 @@
-﻿---
+---
 name: cursos-gratis
-description: Busca y recomienda cursos GRATIS de programacion, tecnologia y desarrollo de fuentes reconocidas: YouTube (creadores verificados), plataformas oficiales gratuitas y universidades. Sin cursos de paga.
+description: Busca y recomienda cursos GRATIS de economia, aduanas, comercio internacional, finanzas y ciencias economicas de fuentes reconocidas: universidades, plataformas oficiales gratuitas y canales educativos verificados. Sin cursos de paga.
 ---
 
-# Cursos Gratis — Skill de Busqueda
+# Cursos Gratis � Skill de Busqueda (Economia y Aduanas)
 
-Skill obligatoria cuando el usuario pida "curso", "aprender", "tutorial", "formacion", "capacitacion", "guia de estudio", "ruta de aprendizaje", "certificacion", "carrera", "bootcamp", "masterclass", "workshop", "curso gratis", "recurso de aprendizaje", o cualquier consulta educativa sobre tecnologia.
+Skill especializada para estudiantes y profesionales de economia, comercio internacional, aduanas, finanzas y ciencias economicas.
 
 ## Plataformas GRATIS aceptadas
 
-### Nivel A — Prioridad maxima
+### Nivel A � Prioridad maxima
 
 | Plataforma | Tipo | Ejemplos |
 |------------|------|----------|
-| **freeCodeCamp** | Curso completo + certificado gratis | freecodecamp.org |
-| **The Odin Project** | Ruta completa desarrollo web | theodinproject.com |
-| **MDN Web Docs** | Documentacion + tutoriales interactivos | developer.mozilla.org |
-| **W3Schools** | Tutoriales basicos de web | w3schools.com |
-| **Khan Academy** | Ciencias computacionales basicas | khanacademy.org |
-| **Harvard CS50 (edX audit)** | Curso universitario GRATIS (sin certificado) | cs50.harvard.edu |
-| **MIT OpenCourseWare** | Cursos universitarios MIT | ocw.mit.edu |
-| **Google Devs / Google Skills** | Cursos oficiales Google | developers.google.com, skillshop.withgoogle.com |
-| **Microsoft Learn** | Cursos oficiales Microsoft | learn.microsoft.com |
-| **Roadmap.sh** | Rutas de aprendizaje visuales | roadmap.sh |
+| **Khan Academy** | Cursos completos de economia, finanzas, contabilidad | khanacademy.org/economics-finance-domain |
+| **MIT OpenCourseWare** | Cursos universitarios MIT de economia | ocw.mit.edu/courses/economics/ |
+| **Harvard Online (edX audit)** | Cursos Harvard GRATIS (sin certificado) | pll.harvard.edu, edx.org |
+| **Coursera (audit)** | Acceder a videos y materiales sin pagar | coursera.org/browse/social-sciences/economics |
+| **edX (audit)** | Cursos de universidades top | edx.org/learn/economics |
+| **Google Digital Garage** | Cursos gratis de Google | skillshop.withgoogle.com |
+| **Banco Mundial** | Cursos gratis sobre desarrollo, economia global | openknowledge.worldbank.org, olc.worldbank.org |
+| **FMI - IMF** | Cursos del Fondo Monetario Internacional | imf.org/en/Capacity-Development |
+| **CEPAL** | Cursos de la Comision Economica para America Latina | cepal.org/es/formacion |
+| **OEA - CIDI** | Cursos de la Organizacion de Estados Americanos | cursosonline.oas.org |
+| **UNCTAD** | Cursos de comercio y desarrollo de Naciones Unidas | unctad.org |
+| **OMC - WTO** | Cursos de la Organizacion Mundial del Comercio | wto.org |
+| **Aduanas locales** | Guias de direcciones de aduanas (DGA, SUNAT, etc.) | sitios oficiales |
 
-### Nivel B — YouTube (creadores verificados)
+### Nivel B � YouTube (canales educativos verificados)
 
 | Creador | Especialidad | Canal |
 |---------|-------------|-------|
-| **midudev** | React, Next.js, JavaScript, TypeScript | youtube.com/@midudev |
-| **MoureDev** | Python, JavaScript, Git, HTML/CSS, IA, SQL | youtube.com/@mouredev |
-| **HolaMundo** | Programacion general, Python, JavaScript, backend | youtube.com/@holamundo |
-| **Fazt** | Web dev, JavaScript, TypeScript, Python, Node, React | youtube.com/@FaztTech |
-| **Dalto** | JavaScript, React, HTML/CSS, Python | youtube.com/@soydalto |
-| **Carlos Azaustre** | React, JavaScript, TypeScript, Next.js | youtube.com/@carlosazaustre |
-| **Develoteca** | .NET, C#, SQL Server, ASP.NET | youtube.com/@develoteca |
-| **NetNinja (The Net Ninja)** | Full stack, Flutter, React, Node, MongoDB | youtube.com/@thenetninja |
-| **Traversy Media** | Full stack, Python, JS, MERN, Devops | youtube.com/@traversymedia |
-| **freeCodeCamp (canal YouTube)** | Cursos completos grabados | youtube.com/@freecodecamp |
-| **Fireship** | Shorts tecnicos, frameworks, conceptos rapidos | youtube.com/@fireship |
-| **Web Dev Simplified** | CSS, JS, React, conceptos claros | youtube.com/@WebDevSimplified |
-| **Kevin Powell** | CSS avanzado, diseno web | youtube.com/@KevinPowell |
+| **Economia Desde Casa** | Economia explicada en espanol | youtube.com/@EconomiaDesdeCasa |
+| **Economia y Desarrollo** | Macroeconomia, microeconomia, politica economica | youtube.com/@economiaydesarrollo |
+| **Aduanas y Comercio Exterior** | Tramites aduaneros, clasificacion arancelaria, tratados | youtube.com/@aduanascomercioexterior |
+| **ProComercio** | Comercio internacional, exportaciones, logistica | youtube.com/@procomercio |
+| **Khan Academy Espanol** | Economia, finanzas, contabilidad en espanol | youtube.com/@khanacademyespanol |
+| **Marginal Revolution University** | Micro y macroeconomia (ingles, subtitulos) | youtube.com/@mruniversity |
+| **Economics Explained** | Economia global explicada (ingles) | youtube.com/@economics_explained |
+| **Money & Macro** | Macroeconomia, inflacion, bancos centrales | youtube.com/@moneyandmacro |
+| **UNAM - Facultad de Economia** | Conferencias y cursos de la UNAM | youtube.com/@unam |
+| **Universidad de Costa Rica** | Cursos y conferencias academicas | youtube.com/@universidaddecostarica |
 
-### Nivel C — Plataformas con contenido gratuito limitado
+### Nivel C � Plataformas con contenido gratuito limitado
 
 | Plataforma | Que ofrece gratis |
 |------------|------------------|
-| **Coursera (audit)** | Acceder a videos y materiales sin pagar (sin certificado) |
-| **edX (audit)** | Acceder a cursos completos sin pagar (sin certificado) |
-| **Udemy (cursos gratis)** | Filtrar por "Gratis" — verificar calidad antes de recomendar |
-| **Platzi (contenido limitado gratis)** | Algunos cursos y articulos gratuitos |
-| **Codecademy (plan basico)** | Ejercicios interactivos gratuitos limitados |
-| **Scrimba (plan gratis)** | Cursos interactivos con screencast editables |
-
-## Fuentes NO aceptadas
-
-| Fuente | Motivo |
-|--------|--------|
-| Cursos de paga sin alternativa gratis | No se recomienda nada que requiera pago obligatorio |
-| Udemy pagos | Solo aceptar si el curso es GRATIS (USD 0) |
-| Platzi pago | Solo contenido gratuito explicito |
-| LinkedIn Learning | Paga |
-| Datacamp pago | Paga |
-| Codigo Facilito pago | Paga |
-| Blogs personales como curso | No son cursos estructurados |
-| Canales YouTube no verificados | Sin curaduria |
+| **Coursera (audit)** | Acceder a videos y materiales sin pagar |
+| **edX (audit)** | Cursos completos de economia sin pagar |
+| **Academia.edu** | Papers academicos, tesis, articulos |
+| **ResearchGate** | Publicaciones academicas de economistas |
+| **Google Scholar** | Busqueda de papers academicos |
+| **SciELO** | Revistas cientificas de America Latina y el Caribe |
+| **Redalyc** | Revistas academicas de acceso abierto |
+| **Repositorios universitarios** | Tesis y trabajos finales de economia |
 
 ## Proceso de busqueda obligatorio
 
-```
-1. PREGUNTAR al usuario:
-   - Tema exacto (React, Python, SQL, etc.)
-   - Nivel (principiante, intermedio, avanzado)
-   - Idioma (espanol, ingles, ambos)
-   - Formato preferido (video, texto, interactivo)
-
-2. BUSCAR en este orden:
-   a) Nivel A — plataformas gratuitas oficiales
-   b) Nivel B — YouTube creadores verificados
-   c) Nivel C — plataformas con contenido gratuito limitado
-
-3. RECOMENDAR usando este formato:
-
-Recomendacion: [Tema] - [Nivel]
-
-1. [Plataforma] - [Nombre del curso]
-   Enlace: [URL]
-   Idioma: [es/EN]
-   Descripcion breve: [1-2 lineas]
-   Gratis: Si
-
-2. [YouTube] - [Nombre del video/serie]
-   Creador: [Nombre]
-   Enlace: [URL]
-   Duracion aproximada: [X horas]
-   Descripcion: [1-2 lineas]
-
-3. [Plataforma] - [Nombre del curso]
-   ...
-
-4. SI no hay cursos gratis de calidad sobre el tema:
-   - Informar al usuario explicitamente
-   - Sugerir temas alternativos cercanos que SI tengan recursos gratis
-   - NO recomendar cursos de paga como alternativa
-```
+1. Preguntar: tema exacto, nivel, idioma, formato
+2. Buscar: Nivel A (oficiales/academicas) ? Nivel B (YouTube) ? Nivel C (limitado)
+3. Recomendar: plataforma, enlace directo, idioma, descripcion
 
 ## Reglas adicionales
 
-- **Siempre verificar** que el recurso sea realmente gratuito (sin necesidad de tarjeta de credito)
-- **No asumir** que el usuario conoce ingles — preguntar preferencia de idioma
-- **Curated over quantity**: mejor 2-3 cursos excelentes que 10 mediocres
-- **Dar el enlace directo**, no la pagina principal del sitio
-- Si el usuario pide una certificacion: mencionar que los certificados de freeCodeCamp, Google Skills, Microsoft Learn, y Harvard CS50 son gratuitos
-- Si el usuario pide "ruta de aprendizaje": priorizar Roadmap.sh + The Odin Project + freeCodeCamp
+- Priorizar fuentes oficiales: OMC, FMI, Banco Mundial, CEPAL, OEA
+- Para aduanas: guias oficiales de direcciones de aduanas y tratados comerciales
+- Para economia: universidades (MIT, Harvard, UNAM) y organismos internacionales
+- Curated over quantity: 2-3 excelentes > 10 mediocres
+- Siempre enlace directo, no pagina principal
