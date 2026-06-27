@@ -18,3 +18,9 @@ Template de configuracion OpenCode para trabajos universitarios. **Todos los mod
 
 ## MCPs
 obsidian (vault) + academic-research (arXiv, Google Scholar, Wikipedia)
+### Opcional: NotebookLM API
+
+Para hacer preguntas sobre documentos (subir PDFs y consultarlos):
+1. Obtén API key gratis en https://aistudio.google.com/apikey
+2. Configura como variable de entorno: `GEMINI_API_KEY`
+3. Cambia `"enabled": false` a `"enabled": true` en el MCP notebooklm

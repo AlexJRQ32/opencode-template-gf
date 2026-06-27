@@ -12,6 +12,13 @@
       "type": "local",
       "command": ["npx", "-y", "@thenextgennexus/academic-research-mcp-server"],
       "enabled": true
+    },
+    "notebooklm": {
+      "type": "local",
+      "command": ["npx", "-y", "@mcpware/notebooklm-api"],
+      "environment": { "GEMINI_API_KEY": "{env:GEMINI_API_KEY}" },
+      "enabled": false,
+      "description": "Opcional: Q&A sobre documentos con Gemini. Requiere API key gratis en aistudio.google.com y variable de entorno GEMINI_API_KEY"
     }
   },
   "agent": {
