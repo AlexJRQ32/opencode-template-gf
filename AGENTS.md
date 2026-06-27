@@ -26,3 +26,12 @@ oh-my-opencode, opencode-vibeguard, opencode-websearch-cited, opencode-pty, open
 5. Verificar con check_detectability() antes de guardar documento final
 6. Guardar automaticamente: sessions/, decisions/, learnings/, preferences/, activity/
 7. Cierre obligatorio por nota con wikilinks y extension .md
+
+## Regla: Explicar cada herramienta antes de usarla
+Antes de ejecutar cualquier skill, MCP o plugin por primera vez en una sesion, el agente DEBE explicar brevemente:
+- Que hace la herramienta
+- Para que sirve en ese momento
+- Que va a hacer con ella
+
+Ejemplo:
+"Voy a usar apa7-docx para generar el documento en formato APA 7. Esta skill crea archivos .docx con margenes de 2.54cm, interlineado doble y Times New Roman 12pt, cumpliendo todas las normas APA 7."
