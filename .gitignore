@@ -1,18 +1,7 @@
-﻿# opencode
-opencode.json
-opencode.jsonc
-
-# Node
 node_modules/
-package-lock.json
-
-# Secrets
-secrets.*
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Python
+mcp-servers/node_modules/
 __pycache__/
 *.pyc
+*.log
+.env
+*~

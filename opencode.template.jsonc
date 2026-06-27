@@ -1,92 +1,34 @@
-﻿{
+{
   "$schema": "https://opencode.ai/config.json",
-  "model": "opencode/qwen3.6-plus-free",
+  "model": "opencode/nemotron-3-ultra-free",
   "autoupdate": true,
   "mcp": {
     "obsidian": {
       "type": "local",
-      "command": [
-        "{{MCPVAULT_CMD}}",
-        "{{VAULT_PATH}}"
-      ],
+      "command": ["{{MCPVAULT_CMD}}", "{{VAULT_PATH}}"],
       "enabled": true
     }
   },
   "agent": {
-    "nemotron-3-ultra": {
-      "model": "opencode/nemotron-3-ultra-free",
-      "mode": "subagent",
-      "description": "Nemotron 3 Ultra (1M contexto). Tareas grandes."
-    },
-    "deepseek-v4-flash": {
-      "model": "opencode/deepseek-v4-flash-free",
-      "mode": "subagent",
-      "description": "DeepSeek V4 Flash. Codigo, analisis, debugging."
-    },
-    "qwen-36-plus": {
-      "model": "opencode/qwen3.6-plus-free",
-      "mode": "subagent",
-      "description": "Qwen3.6 Plus. Codigo, features, refactors."
-    },
-    "grok-code-fast-1": {
-      "model": "opencode/grok-code-fast-1-free",
-      "mode": "subagent",
-      "description": "Grok Code Fast 1. Codigo rapido, explicaciones."
-    },
-    "glm-5": {
-      "model": "opencode/glm-5-free",
-      "mode": "subagent",
-      "description": "GLM 5. Proposito general, analisis, creatividad."
-    },
-    "ring-26-1t": {
-      "model": "opencode/ring-2.6-1t-free",
-      "mode": "subagent",
-      "description": "Ring 2.6 1T. Razonamiento, tareas complejas."
-    },
-    "gpt-5-nano": {
-      "model": "opencode/gpt-5-nano",
-      "mode": "subagent",
-      "description": "GPT 5 Nano. Tareas rapidas y ligeras."
-    },
-    "minimax-m25": {
-      "model": "opencode/minimax-m2.5-free",
-      "mode": "subagent",
-      "description": "MiniMax M2.5. Proposito general."
-    },
-    "orquestrador": {
+    "oracle": {
       "model": "opencode-go/qwen3.7-max",
-      "mode": "all",
-      "description": "Orquestrador de agentes y tareas."
+      "mode": "subagent",
+      "description": "Analisis tecnico, debugging, arquitectura."
     },
-    "hive-master": {
-      "model": "opencode-go/qwen3.7-max",
-      "mode": "all",
-      "description": "Coordinador de enjambre."
+    "fixer": {
+      "model": "opencode-go/glm-5.2",
+      "mode": "subagent",
+      "description": "Implementacion de codigo y documentos."
     },
-    "swarm": {
+    "explorer": {
       "model": "opencode-go/deepseek-v4-flash",
-      "mode": "all",
-      "description": "Swarm: Ejecucion masiva paralela."
+      "mode": "subagent",
+      "description": "Busqueda de codigo y simbolos."
     },
-    "architect": {
-      "model": "opencode-go/qwen3.7-max",
-      "mode": "all",
-      "description": "Diseno de arquitectura."
-    },
-    "scout": {
+    "librarian": {
       "model": "opencode-go/deepseek-v4-flash",
-      "mode": "all",
-      "description": "Exploracion rapida de codigo."
-    },
-    "forager": {
-      "model": "opencode-go/deepseek-v4-flash",
-      "mode": "all",
-      "description": "Recoleccion de informacion."
-    },
-    "hygienic": {
-      "model": "opencode-go/deepseek-v4-pro",
-      "mode": "all",
-      "description": "Limpieza y refactorizacion."
+      "mode": "subagent",
+      "description": "Documentacion externa e investigacion."
     }
   },
   "skills": {},
@@ -95,30 +37,11 @@
     "opencode-vibeguard",
     "opencode-websearch-cited",
     "opencode-pty",
-    "opencode-wakatime",
-    "opencode-worktree",
-    "opencode-background-agents",
     "opencode-supermemory",
-    "opencode-goal-plugin",
-    "opencode-conductor",
-    "opencode-quota",
     "opencode-snip",
-    "opencode-claude-memory",
     "opencode-working-memory",
-    "opencode-swarm",
     "opencode-orchestrator",
-    "opencode-hive",
-    "opencode-lazy",
-    "opencode-codeindex",
-    "opencode-models-discovery",
-    "opencode-copilot-plugin",
-    "@openspoon/subtask2",
-    "@plannotator/opencode",
-    "@hueyexe/opencode-ensemble",
-    "@capybearista/opencode-agents-loader",
-    "opencode-dux",
-    "opencode-agent-trace-plugin",
-    "opencode-mem"
+    "opencode-dux"
   ],
   "disabled_providers": ["ollama", "openrouter"],
   "provider": {

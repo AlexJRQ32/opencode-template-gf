@@ -1,12 +1,19 @@
-ï»¿# Onboarding
+# Onboarding
 
-Bienvenida a OpenCode! Este template te da:
+Bienvenida al template academico de OpenCode.
 
-- **Memoria persistente**: OpenCode recuerda lo que haces sesion tras sesion via Obsidian
-- **Skills**: Herramientas especializadas para codigo, diseno, documentos, imagenes
-- **Plugins**: Extensiones que mejoran la experiencia
+## Tu primer dia
+1. Lee SETUP.md — configura tu vault y skills
+2. Abri OpenCode
+3. Probá: "Necesito un documento APA 7 sobre [tema] con 5 fuentes"
 
-## Primeros pasos
-1. Sigue [IMPLEMENTATION.md](IMPLEMENTATION.md) para configurar
-2. Prueba preguntar \"Que skills tengo disponibles?\"
-3. Crea una nota en Obsidian para probar la memoria
+## Skills clave
+- **apa7-docx**: genera documentos .docx en formato APA 7
+- **undetectable-apa7**: humaniza el texto para evitar detectores IA
+- **fuentes-confiables**: verifica que las fuentes sean reales y confiables
+
+## Subagentes
+- @oracle — para analisis y revision de contenido
+- @fixer — para generar y corregir codigo/documentos
+- @explorer — para buscar archivos y codigo
+- @librarian — para investigar documentacion externa
