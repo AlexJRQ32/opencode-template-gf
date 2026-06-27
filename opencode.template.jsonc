@@ -16,22 +16,22 @@
   },
   "agent": {
     "oracle": {
-      "model": "opencode-go/qwen3.7-max",
+      "model": "opencode/nemotron-3-ultra-free",
       "mode": "subagent",
-      "description": "Analisis tecnico, debugging, arquitectura."
+      "description": "Analisis, debugging y arquitectura (1M contexto, gratis)."
     },
     "fixer": {
-      "model": "opencode-go/glm-5.2",
+      "model": "opencode/glm-5-free",
       "mode": "subagent",
       "description": "Implementacion de codigo y documentos."
     },
     "explorer": {
-      "model": "opencode-go/deepseek-v4-flash",
+      "model": "opencode/deepseek-v4-flash-free",
       "mode": "subagent",
       "description": "Busqueda de codigo y simbolos."
     },
     "librarian": {
-      "model": "opencode-go/deepseek-v4-flash",
+      "model": "opencode/deepseek-v4-flash-free",
       "mode": "subagent",
       "description": "Documentacion externa e investigacion."
     }

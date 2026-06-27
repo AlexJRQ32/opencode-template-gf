@@ -7,13 +7,13 @@ Academicas: apa7-docx, undetectable-apa7, fuentes-confiables, presentation-desig
 Imagenes: image-viewer (analizar), image-prompt-creator (crear prompts para IA externa)
 Utilerias: obsidian-vault, model-router, token-efficiency, install-auditor
 
-## Subagentes (4)
-| Subagente | Modelo | Rol |
+## Subagentes (4 - todos gratis)
+| Subagente | Modelo (Zen Free) | Rol |
 |---|---|---|
-| `@oracle` | `opencode-go/qwen3.7-max` | Analisis tecnico, debugging, arquitectura |
-| `@fixer` | `opencode-go/glm-5.2` | Implementacion de codigo y documentos |
-| `@explorer` | `opencode-go/deepseek-v4-flash` | Busqueda de codigo/simbolos |
-| `@librarian` | `opencode-go/deepseek-v4-flash` | Documentacion externa e investigacion |
+| `@oracle` | `opencode/nemotron-3-ultra-free` | Analisis, debugging, arquitectura (1M ctx) |
+| `@fixer` | `opencode/glm-5-free` | Implementacion de codigo y documentos |
+| `@explorer` | `opencode/deepseek-v4-flash-free` | Busqueda de codigo/simbolos |
+| `@librarian` | `opencode/deepseek-v4-flash-free` | Documentacion externa e investigacion |
 
 ## Plugins (9)
 oh-my-opencode, opencode-vibeguard, opencode-websearch-cited, opencode-pty, opencode-supermemory, opencode-snip, opencode-working-memory, opencode-orchestrator, opencode-dux
